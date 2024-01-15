@@ -78,10 +78,9 @@ function MaterialUIControllerProvider({ children }) {
     transparentNavbar: true,
     fixedNavbar: true,
     openConfigurator: false,
-    direction: "ltr",
+    direction: "rtl",
     layout: "dashboard",
-    darkMode: false,
-  };
+    darkMode: false,  };
 
   const [controller, dispatch] = useReducer(reducer, initialState);
 
